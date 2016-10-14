@@ -1,4 +1,4 @@
-backlogUrl = 'https://uenotest.backlog.jp/'
+backlogUrl  = 'https://uenotest.backlog.jp/'
 
 module.exports = (robot) ->
   robot.router.post "/room/:room", (req, res) ->
